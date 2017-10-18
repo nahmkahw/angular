@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+
+    angular2:
+      image: angular2-prod
+      command: npm start
+      ports:
+        - 4200:4200
+      restart: always
+    golang:
+      image: golang-oci8
+      command: go run /go/main.go
+      ports:
+        - 4000:4000
+      restart: always

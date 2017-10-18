@@ -1,0 +1,8 @@
+rubram =
+(DESCRIPTION =
+ (ADDRESS = (PROTOCOL = TCP)(HOST = 10.2.1.98)(PORT = 1521)
+  )
+ (CONNECT_DATA =
+  (SERVICE_NAME= rubram)
+  )
+ )

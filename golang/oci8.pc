@@ -1,0 +1,9 @@
+prefix=/usr
+includedir=${prefix}/lib/oracle/10.1/client64/sdk/include
+libdir=${prefix}/lib/oracle/10.1/client64
+
+Name: oci8
+Description: Oracle Instant Client
+Version: 10.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lclntsh
