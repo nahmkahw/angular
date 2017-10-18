@@ -18,6 +18,8 @@ COPY basic-10.2.0.5.0-linux-x64.zip /tmp/
 COPY sdk-10.2.0.5.0-linux-x64.zip /tmp/
 COPY sqlplus-10.2.0.5.0-linux-x64.zip /tmp/
 
+COPY main.go /go
+
 
 RUN cd /tmp && unzip basic-10.2.0.5.0-linux-x64.zip 
 #RUN cp /tmp/instantclient_10_2/* /usr/lib/oracle/10.1/client64/
